@@ -1,0 +1,16 @@
+nest start
+
+
+default port http://localhost:3000/
+
+Installing mongo
+ npm install --save @nestjs/mongoose mongoose 
+ add in app module import
+ MongooseModule.forRoot('mongodb://localhost/nest')
+
+ 
+
+> nest g resource
+To create the resources basics of a rest api crud.
+
+
